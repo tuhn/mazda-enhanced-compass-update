@@ -42,7 +42,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
 6. Gõ lần lượt các lệnh sau vào command prompt:
      ```
-     generate-tiles minzoom=13 maxzoom=13or
+     generate-tiles minzoom=13 maxzoom=13
      generate-tiles minzoom=15 maxzoom=15
      generate-tiles minzoom=17 maxzoom=17
      ```
