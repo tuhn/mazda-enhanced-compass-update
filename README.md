@@ -34,7 +34,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
      change-dir D:\Map
      load-source vietnam-latest.osm.pbf
      ```
-3. Thực tế, chúng ta chỉ cần render và update lại 1 phần map thành phố và lân cận là đủ dùng. Không cần render lại cả Vietnam. Nên bạn zoom và di chuyển viewpoint để thành phố của bạn
+3. Thực tế, chúng ta chỉ cần render và update lại 1 phần map thành phố và lân cận là đủ dùng. Không cần render lại cả Vietnam. Nên bạn zoom và di chuyển viewpoint đến thành phố của bạn.
 
 4. Chọn menu **Map > Set Geometry Bounds**
 
