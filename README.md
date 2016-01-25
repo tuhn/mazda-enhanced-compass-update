@@ -7,29 +7,26 @@
 
 Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
-==================================================
-
 ## PART 1: DOWNLOAD
 
 1. Dữ liệu bản đồ đường đi mới nhất
 - Download: http://download.geofabrik.de/asia/vietnam-latest.osm.pbf (~26MB)
-- Lưu tại D:\Map
+- Lưu tại **D:\Map**
 - Đây là dữ liệu bản đồ đường đi mới nhất từ OpenStreetMap, cập nhật khá thường xuyên. Đây chỉ là cục data thô, chưa dùng ngay được, cần phải render ra các file ảnh cho Enhanced Compass.
 
 2. Phần mềm render
 - Download: http://maperitive.net/download/Maperitive-latest.zip (~6.4MB)
-- Giải nén ra D:\Maperitive
+- Giải nén ra **D:\Maperitive**
 
 3. Bảng style cho bản đồ
 - Download: https://raw.githubusercontent.com/tuhn/mazda-enhanced-compass-update/master/mazda.mrules
 - Các style ruleset có sẵn của Maperitive không giống với bản đồ mà Enhanced Compass đang render, và chúng cũng không phù hợp để hiển thị trên màn hình ô tô. Mình đã build bộ style mới khá tương tự bộ bản đồ gốc của Enhanced Compass.
-- Mở file D:\Maperitive\Rules\Default.mrules bằng text editor như notepad, xoá toàn bộ nội dung đang có và thay bằng nội dung của mazda.mrules
+- Mở file **D:\Maperitive\Rules\Default.mrules** bằng text editor như notepad, xoá toàn bộ nội dung đang có và thay bằng nội dung của **mazda.mrules**
 
-==================================================
 
 ## PART 2: RENDER 
 
-1. Bật D:\Maperitive\Maperitive.exe
+1. Bật **D:\Maperitive\Maperitive.exe**
 
 2. Click vào ô **Command prompt** bên dưới gõ lần lượt các lệnh sau:
 ```
@@ -39,7 +36,7 @@ load-source vietnam-latest.osm.pbf
 ```
 3. Thực tế, chúng ta chỉ cần render và update lại 1 phần map thành phố và lân cận là đủ dùng. Không cần render lại cả Vietnam. Nên bạn zoom và di chuyển viewpoint để thành phố của bạn
 
-4. Chọn menu Map > Set Geometry Bounds
+4. Chọn menu **Map > Set Geometry Bounds**
 
 5. Zoom Out --> bạn sẽ thấy vùng giới hạn sẽ được render màu đủ, dùng chuột để điều chỉnh khu vực bạn muốn sẽ render và update lại.
 
@@ -50,8 +47,6 @@ generate-tiles minzoom=15 maxzoom=15
 generate-tiles minzoom=17 maxzoom=17
 ```
 Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất khoảng vài phút, máy Core-i3 8G RAM render được 30-40 tiles/sec cho zoom 17.
-
-==================================================
 
 ## PART 3: COPY TO SD CARD
 
