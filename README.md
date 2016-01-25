@@ -29,11 +29,11 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 1. Bật **D:\Maperitive\Maperitive.exe**
 
 2. Click vào ô **Command prompt** bên dưới gõ lần lượt các lệnh sau:
-```
-remove-source index=1
-change-dir D:\Map
-load-source vietnam-latest.osm.pbf
-```
+     ```
+     remove-source index=1
+     change-dir D:\Map
+     load-source vietnam-latest.osm.pbf
+     ```
 3. Thực tế, chúng ta chỉ cần render và update lại 1 phần map thành phố và lân cận là đủ dùng. Không cần render lại cả Vietnam. Nên bạn zoom và di chuyển viewpoint để thành phố của bạn
 
 4. Chọn menu **Map > Set Geometry Bounds**
@@ -41,11 +41,11 @@ load-source vietnam-latest.osm.pbf
 5. Zoom Out --> bạn sẽ thấy vùng giới hạn sẽ được render màu đủ, dùng chuột để điều chỉnh khu vực bạn muốn sẽ render và update lại.
 
 6. Gõ lần lượt các lệnh sau vào command prompt:
-```
-generate-tiles minzoom=13 maxzoom=13
-generate-tiles minzoom=15 maxzoom=15
-generate-tiles minzoom=17 maxzoom=17
-```
+     ```
+     generate-tiles minzoom=13 maxzoom=13
+     generate-tiles minzoom=15 maxzoom=15
+     generate-tiles minzoom=17 maxzoom=17
+     ```
 Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất khoảng vài phút, máy Core-i3 8G RAM render được 30-40 tiles/sec cho zoom 17.
 
 ## PART 3: COPY TO SD CARD
