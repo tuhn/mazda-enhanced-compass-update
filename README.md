@@ -10,18 +10,18 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 ## PART 1: DOWNLOAD
 
 1. Dữ liệu bản đồ đường đi mới nhất
-- Download: http://download.geofabrik.de/asia/vietnam-latest.osm.pbf (~26MB)
-- Lưu tại **D:\Map**
-- Đây là dữ liệu bản đồ đường đi mới nhất từ OpenStreetMap, cập nhật khá thường xuyên. Đây chỉ là cục data thô, chưa dùng ngay được, cần phải render ra các file ảnh cho Enhanced Compass.
+Download: http://download.geofabrik.de/asia/vietnam-latest.osm.pbf (~26MB)
+Lưu tại **D:\Map**
+Đây là dữ liệu bản đồ đường đi mới nhất từ OpenStreetMap, cập nhật khá thường xuyên. Đây chỉ là cục data thô, chưa dùng ngay được, cần phải render ra các file ảnh cho Enhanced Compass.
 
 2. Phần mềm render
-- Download: http://maperitive.net/download/Maperitive-latest.zip (~6.4MB)
-- Giải nén ra **D:\Maperitive**
+Download: http://maperitive.net/download/Maperitive-latest.zip (~6.4MB)
+Giải nén ra **D:\Maperitive**
 
 3. Bảng style cho bản đồ
-- Download: https://raw.githubusercontent.com/tuhn/mazda-enhanced-compass-update/master/mazda.mrules
-- Các style ruleset có sẵn của Maperitive không giống với bản đồ mà Enhanced Compass đang render, và chúng cũng không phù hợp để hiển thị trên màn hình ô tô. Mình đã build bộ style mới khá tương tự bộ bản đồ gốc của Enhanced Compass.
-- Mở file **D:\Maperitive\Rules\Default.mrules** bằng text editor như notepad, xoá toàn bộ nội dung đang có và thay bằng nội dung của **mazda.mrules**
+Download: https://raw.githubusercontent.com/tuhn/mazda-enhanced-compass-update/master/mazda.mrules
+Các style ruleset có sẵn của Maperitive không giống với bản đồ mà Enhanced Compass đang render, và chúng cũng không phù hợp để hiển thị trên màn hình ô tô. Mình đã build bộ style mới khá tương tự bộ bản đồ gốc của Enhanced Compass.
+Mở file **D:\Maperitive\Rules\Default.mrules** bằng text editor như notepad, xoá toàn bộ nội dung đang có và thay bằng nội dung của **mazda.mrules**
 
 
 ## PART 2: RENDER 
