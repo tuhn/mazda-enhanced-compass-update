@@ -62,4 +62,4 @@ Mục đích chính của guide này là các bạn tự cập nhật và tuỳ 
 - Mazda style: https://mega.nz/#!dIxmXL4A!67qnU4QC6HCkwVTxPlRAfwyEY7xy2SdJCtrOGMz__Ck
 - OSM/Google style: https://mega.nz/#!0BxjXAJQ!JaTUY0qGBPbqygn0MaMNqVaZ_kP38zQh2WLy5qW2L4I
 
-(last updated: Jan 26, 2016)
+(last updated: Jan 26, 2016 - phần bản đồ update là Hanoi, HCM và vài thành phố khác)
