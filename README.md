@@ -14,7 +14,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 1. Dữ liệu bản đồ đường đi mới nhất
      - Download: http://download.geofabrik.de/asia/vietnam-latest.osm.pbf (~26MB)
      - Lưu tại **D:\Map**.
-     - Đây là dữ liệu bản đồ đường đi mới nhất từ OpenStreetMap, cập nhật khá thường xuyên. Đây chỉ là cục data thô, chưa dùng ngay được, cần phải render ra các file ảnh cho Enhanced Compass.
+     - Đây là dữ liệu bản đồ đường đi mới nhất từ OpenStreetMap, cập nhật khá thường xuyên, đủ dùng cho các bạn ở thành phố lớn, còn ít cập nhật đường tỉnh. Và đây chỉ là cục data thô, chưa dùng ngay được, cần phải render ra các file ảnh cho Enhanced Compass.
 
 2. Phần mềm render
      - Download: http://maperitive.net/download/Maperitive-latest.zip (~6.4MB)
