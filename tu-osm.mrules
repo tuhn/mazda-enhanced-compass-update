@@ -600,7 +600,7 @@ rules
 		define
 			font-size : 11 
 			min-zoom : 13
-			text-color : #849BBD
+			text-color : #ECA2A3
 			text-halo-width : 25%
 			text-offset-vertical : 150%
 		draw: text
@@ -640,9 +640,9 @@ rules
 					line-width : 7:1;9:2;12:3;13:7;16:10;18:12
 			define
 				min-zoom : 12
-				line-color : #849BBD
+				line-color : #ECA2A3
 				border-style : solid
-				border-color : #849BBD black 20%
+				border-color : #ECA2A3 black 20%
 				border-width : 15%
 			draw : line
 			define
@@ -671,10 +671,10 @@ rules
 		elseif : *trunk*
 			define
 				min-zoom : 12
-				line-color : #96D296
+				line-color : #FDD6A4
 				line-width : 11:1;13:2;15:10;18:12
 				border-style : solid
-				border-color : #96D296 black 20%
+				border-color : #FDD6A4 black 20%
 				border-width : 15%
 			for : tunnel=yes
 				define
@@ -1325,3 +1325,4 @@ rules
 			line-color : #B5D0D0
 			line-width : 2
 		draw : line
+		
