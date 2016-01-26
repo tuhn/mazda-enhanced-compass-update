@@ -22,6 +22,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
      - Download: https://raw.githubusercontent.com/tuhn/mazda-enhanced-compass-update/master/mazda.mrules
      - Các style ruleset có sẵn của Maperitive không giống với bản đồ mà Enhanced Compass đang render, và chúng cũng không phù hợp để hiển thị trên màn hình ô tô. Mình đã build bộ style mới khá tương tự bộ bản đồ gốc của Enhanced Compass.
      - Mở file **D:\Maperitive\Rules\Default.mrules** bằng text editor như notepad, xoá toàn bộ nội dung đang có và thay bằng nội dung của **mazda.mrules**
+     - Ngoài ra trên github repo của mình và internet có vài style rulesets khác các bạn tự khám phá ;)
 
 
 ## PART 2: RENDER 
