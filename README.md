@@ -7,6 +7,8 @@
 
 Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
+![Demo tu-osm.mrules](/shots/demo01.jpg?raw=true "Demo tu-osm.mrules")
+
 ## PART 1: DOWNLOAD
 
 1. Dữ liệu bản đồ đường đi mới nhất
