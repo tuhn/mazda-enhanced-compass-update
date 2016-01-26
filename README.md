@@ -7,7 +7,7 @@
 
 Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
-![Demo tu-osm.mrules](/shots/demo01.jpg?raw=true "Demo tu-osm.mrules")
+![Demo](/shots/demo01.jpg?raw=true "Demo")
 
 ## PART 1: DOWNLOAD
 
@@ -56,3 +56,9 @@ Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất 
 1. Rút SD từ Mazda rồi cắm vào PC.
 2. Copy (overwrite) các thư mục 13, 15, 17 trong **D:\Map\Tiles** vào thư mục **SD:\tiles**
 3. Cắm SD trở lại Mazda. Khởi động xe và thấy bản đồ mới :)
+
+# Prerendered Tiles
+Mục đích chính của guide này là các bạn tự cập nhật và tuỳ biến style được. Và có thể nhiều bạn tạo ra các style và render đẹp hơn, tốt hơn mình. Còn với các bác không tự làm được thì có thể download các Tiles do mình đã render rồi copy đè vào *SD:\tiles*, tuy nhiên các Tiles rồi sẽ lại outdate, vài tháng nữa sẽ lại phải render mới.
+- Mazda style: https://mega.nz/#!dIxmXL4A!67qnU4QC6HCkwVTxPlRAfwyEY7xy2SdJCtrOGMz__Ck
+- OSM/Google style: https://mega.nz/#!0BxjXAJQ!JaTUY0qGBPbqygn0MaMNqVaZ_kP38zQh2WLy5qW2L4I
+(last updated: Jan 26, 2016)
