@@ -1,5 +1,5 @@
 // Maperitive style for Mazda Enhanced Compass
-// Created by @hoangngoctu - Jan 25, 2016
+// Created by @hoangngoctu - Jan 28, 2016
 // Released under the Creative Commons Attribution-ShareAlike 3.0 License (http://creativecommons.org/licenses/by-sa/3.0/)
 
 features
@@ -16,7 +16,7 @@ features
 	areas
 		water:natural=water OR waterway=riverbank OR landuse=reservoir OR landuse=basin or waterway=dock
 		green:landuse=forest or natural=wood or (leisure=pitch and @isOneOf(sport,soccer,tennis)) or @isOneOf(leisure,park,playground)
-		building:building=yes
+//		building:building=yes
 		pedestrian:highway=pedestrian
 		parking:amenity=parking
 	points, areas
@@ -28,8 +28,8 @@ features
 properties
 	map-background-color : #666
 	map-sea-color : #333
-	font-size:12:100%;16:200%
-	font-weight:normal
+	font-size:12:200%;16:400%
+	font-weight:bold
 	font-family:Verdana
 	text-max-width:7
 	text-halo-width:15%
