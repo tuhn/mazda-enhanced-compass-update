@@ -33,7 +33,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
 2. Click vào ô **Command prompt** bên dưới gõ lần lượt các lệnh sau:
      ```
-     remove-source index=1
+     clear-map
      change-dir D:\Map
      load-source vietnam-latest.osm.pbf
      ```
