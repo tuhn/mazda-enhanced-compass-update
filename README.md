@@ -57,6 +57,26 @@ Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất 
 2. Copy (overwrite) các thư mục 13, 15, 17 trong **D:\Map\Tiles** vào thư mục **SD:\tiles**
 3. Cắm SD trở lại Mazda. Khởi động xe và thấy bản đồ mới :)
 
+# Script tự động render lại Hà Nội và HCM
+File: **build.txt**
+```
+clear-map
+change-dir D:\Setup\Mazda\Map\Render
+load-source vietnam-latest.osm.pbf
+set-geo-bounds 105.67615894539442, 20.90046031560103, 106.04145435555067, 21.271729913394903
+generate-tiles minzoom=13 maxzoom=13
+generate-tiles minzoom=15 maxzoom=15
+generate-tiles minzoom=17 maxzoom=17
+set-geo-bounds 106.51335148079481, 10.620580765988256, 106.98095707161512, 11.0222076617114
+generate-tiles minzoom=13 maxzoom=13
+generate-tiles minzoom=15 maxzoom=15
+generate-tiles minzoom=17 maxzoom=17
+```
+Chạy script trên từ command prompt của Maperitive:
+```
+run-script D:\Setup\Mazda\Map\Render\build.txt
+```
+
 # Prerendered Tiles
 Mục đích chính của guide này là các bạn tự cập nhật và tuỳ biến style được. Và có thể nhiều bạn tạo ra các style và render đẹp hơn, tốt hơn mình. Còn với các bạn không tự làm được thì có thể download các Tiles do mình đã render rồi copy đè vào *SD:\tiles*, tuy nhiên các Tiles rồi sẽ lại outdate, vài tháng nữa sẽ lại phải render mới.
 - Mazda style (mazda.mrules): https://mega.nz/#!Vd4WhJgY!KefhoyJGJSEoppLkE7Xl-7d4oAuIRS0Xwu-h4USRz48
