@@ -78,8 +78,6 @@ run-script D:\Setup\Mazda\Map\Render\build.txt
 ```
 
 # Prerendered Tiles
-Mục đích chính của guide này là các bạn tự cập nhật và tuỳ biến style được. Và có thể nhiều bạn tạo ra các style và render đẹp hơn, tốt hơn mình. Còn với các bạn không tự làm được thì có thể download các Tiles do mình đã render rồi copy đè vào *SD:\tiles*, tuy nhiên các Tiles rồi sẽ lại outdate, vài tháng nữa sẽ lại phải render mới.
-- Mazda style (mazda.mrules): https://mega.nz/#!Vd4WhJgY!KefhoyJGJSEoppLkE7Xl-7d4oAuIRS0Xwu-h4USRz48
-- OSM/Google style (tu-osm.mrules): https://mega.nz/#!9UgnzKCC!ndaAio7D8TzXgWPAqzJVt4xCG-ycFRwHtYVV0GiTQuU
-
-(last updated: Jan 28, 2016 - phần bản đồ update là Hanoi và HCM)
+Mục đích chính của guide này là các bạn tự cập nhật và tuỳ biến style được. Và có thể nhiều bạn tạo ra các style và render đẹp hơn, tốt hơn mình. Còn với các bạn không tự làm được thì có thể download các Tiles do mình đã render rồi copy đè vào *SD:\tiles*, tuy nhiên các Tiles rồi sẽ lại outdate, vài tháng nữa sẽ lại phải render mới. Mình chỉ render khu vực Hà Nội và HCM.
+- Mazda style (mazda.mrules): https://mega.nz/#!0BRwDJyJ!xq8XpTOvymg0gY0FWNfYZtMg2PXgLiAEG9IK9IwfTNo (last updated: Jan 30 - bigger streets and labels)
+- OSM/Google style (tu-osm.mrules): https://mega.nz/#!9UgnzKCC!ndaAio7D8TzXgWPAqzJVt4xCG-ycFRwHtYVV0GiTQuU (last updated: Jan 28: tweaked color and bigger labels)
