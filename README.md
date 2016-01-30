@@ -49,7 +49,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
      generate-tiles minzoom=15 maxzoom=15
      generate-tiles minzoom=17 maxzoom=17
      ```
-Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất khoảng vài phút, máy Core-i3 8G RAM render được 30-40 tiles/sec cho zoom 17.
+Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất khoảng vài phút, máy Core-i3 8G RAM render được 50-70 tiles/sec cho zoom 17.
 
 ## PART 3: COPY TO SD CARD
 
