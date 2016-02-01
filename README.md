@@ -33,7 +33,7 @@ Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
 
 2. Click vào ô **Command prompt** bên dưới gõ lần lượt các lệnh sau:
      ```
-     clear-map
+     remove-source index=1
      change-dir D:\Map
      load-source vietnam-latest.osm.pbf
      ```
@@ -60,7 +60,7 @@ Các file được render sẽ nằm trong **D:\Map\Tiles**. Bước này mất 
 # Script tự động render lại Hà Nội và HCM
 File: **build.txt**
 ```
-clear-map
+remove-source index=1
 change-dir D:\Setup\Mazda\Map\Render
 load-source vietnam-latest.osm.pbf
 set-geo-bounds 105.67615894539442, 20.90046031560103, 106.04145435555067, 21.271729913394903
