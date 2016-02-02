@@ -1,5 +1,4 @@
 Ubuntu 14.04
-- Download: http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 
 ```
 sudo add-apt-repository ppa:developmentseed/mapbox
@@ -21,6 +20,7 @@ sudo apt-get install -y postgis postgresql-9.3-postgis-2.1
 sudo -u postgres psql -c "CREATE EXTENSION postgis; CREATE EXTENSION postgis_topology;" gis
 
 sudo apt-get install osm2pgsql
+wget http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 osm2pgsql -c -d gis --slim -U root -W vietnam-latest.osm.pbf
 
 git clone git@github.com:mapbox/osm-bright.git
