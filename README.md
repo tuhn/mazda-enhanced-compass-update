@@ -4,8 +4,9 @@
 - Guide này dành cho các bạn đã cài đặt thành công bản đồ Enhanced Compass và hiện tại muốn tự cập nhật dữ liệu bản đồ mới.
 - Nếu các bạn chưa cài thì làm theo guide http://mazda3.xyz/wiki/28-cai-ban-do-map-cho-mazda-3.m3vn
 - Trên github của tác giả  https://github.com/flyandi/mazda-enhanced-compass-map có 1 hướng dẫn khác nhưng cá nhân thấy phức tạp, khó khăn, đọc đã thấy ngại làm.
+- Hiện tại mình đã chuyển sang render bằng TileMill, xịn đẹp hơn nhưng setup phức tạp hơn nhiều so với Maperitive. Ai hứng thú mò mẫm tìm hiểu thì thử (technical) guide sau trên Ubuntu 14.04 https://gist.github.com/tuhn/521b69e8782f9b31ddc0
 
-Sau đây là cách làm mà mình lọ mọ được, cũng khá đơn giản.
+Sau đây là cách render bằng Maperitive, cũng khá đơn giản.
 
 ![Demo](/shots/demo01.jpg?raw=true "Demo")
 
