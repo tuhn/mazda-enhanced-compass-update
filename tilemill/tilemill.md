@@ -25,11 +25,12 @@ axel http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 
 - Update file **/etc/postgresql/9.3/main/pg_hba.conf**
   - Replace line
-  `local   all             all                                     peer`
+  ```local   all             all                                     peer```
   With
-  `local   all             all                                     md5`
+  ```local   all             all                                     md5```
 
 ```
+sudo service postgresql restart
 osm2pgsql -c -d gis --slim -U root -W vietnam-latest.osm.pbf
 
 git clone git@github.com:mapbox/osm-bright.git
