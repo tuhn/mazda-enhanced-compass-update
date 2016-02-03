@@ -50,6 +50,7 @@ cd ..
 
 - Open TileMill again
 - Your map should appear with OSM-Bright style
+- Replace **palette.mss** and **labels.mss** in TileMill with my content in *mss* folder if you want to switch to Mazda (dark/yellow) style
 - Export to MBTiles: select zoom limit 13-17
 
 ```
