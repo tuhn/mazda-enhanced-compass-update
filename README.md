@@ -87,4 +87,4 @@ Mục đích chính của guide này là các bạn tự cập nhật và tuỳ 
 
 ## Rendered by TileMill (better)
 - OSM-Bright style: https://mega.nz/#!dFw0CAoT!B6VAenvGnZnKF8usZkCfQsI1Ma7NTTWAzey8FITxaLE (last updated: Feb 02)
-- Mazda style: https://mega.nz/#!0dwQRLIa!ccpy9dhgRqhdgSlZFdiN9lX3CGcfp5-NPv5bEQyjU9U (last updated: Feb 03)
+- Mazda style: https://mega.nz/#!0dwQRLIa!ccpy9dhgRqhdgSlZFdiN9lX3CGcfp5-NPv5bEQyjU9U (last updated: Feb 03 - I'm using this)
