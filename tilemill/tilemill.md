@@ -59,7 +59,7 @@ git clone git@github.com:mapbox/mbutil.git
 cd mbutil/
 sudo python setup.py install
 
-cd ~/Documents/MapBox/Export
+cd ~/Documents/MapBox/export
 mb-util hanoi.mbtiles ~/mazda/map/hanoi
 ```
 
