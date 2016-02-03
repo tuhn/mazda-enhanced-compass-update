@@ -19,7 +19,7 @@ psql -h localhost -U root gis
 sudo apt-get install -y postgis postgresql-9.3-postgis-2.1
 sudo -u postgres psql -c "CREATE EXTENSION postgis; CREATE EXTENSION postgis_topology;" gis
 
-sudo apt-get install osm2pgsql
+sudo apt-get install -y osm2pgsql
 axel http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 osm2pgsql -c -d gis --slim -U root -W vietnam-latest.osm.pbf
 
