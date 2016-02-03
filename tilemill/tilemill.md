@@ -54,7 +54,7 @@ cd osm-bright/shp/land-polygons-split-3857/
 shapeindex land_polygons.shp
 cd ../simplified-land-polygons-complete-3857/
 shapeindex simplified_land_polygons.shp
-cd ..
+cd ../..
 ./make.py
 ```
 
