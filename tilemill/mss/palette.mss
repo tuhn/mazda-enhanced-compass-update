@@ -1,5 +1,5 @@
 /* ****************************************************************** */
-/* OSM BRIGHT for Imposm                                              */
+/* Mazda Style based on OSM BRIGHT                                    */
 /* ****************************************************************** */
 
 /* For basic style customization you can simply edit the colors and
