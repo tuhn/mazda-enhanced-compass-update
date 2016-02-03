@@ -20,7 +20,7 @@ sudo apt-get install -y postgis postgresql-9.3-postgis-2.1
 sudo -u postgres psql -c "CREATE EXTENSION postgis; CREATE EXTENSION postgis_topology;" gis
 
 sudo apt-get install osm2pgsql
-wget http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
+axel http://download.geofabrik.de/asia/vietnam-latest.osm.pbf
 osm2pgsql -c -d gis --slim -U root -W vietnam-latest.osm.pbf
 
 git clone git@github.com:mapbox/osm-bright.git
@@ -32,8 +32,8 @@ subl configure.py
 - Update **configure.py** with appropriate values with your created project.
 
 ```
-wget http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip
-wget http://data.openstreetmapdata.com/land-polygons-split-3857.zip
+axel http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip
+axel http://data.openstreetmapdata.com/land-polygons-split-3857.zip
 ```
 
 - Extract 2 above ZIP files to 2 sub-folders in **osm-bright/shp**
