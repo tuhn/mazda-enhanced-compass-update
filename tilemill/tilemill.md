@@ -49,7 +49,7 @@ axel http://data.openstreetmapdata.com/land-polygons-split-3857.zip
 - Extract 2 above ZIP files to 2 sub-folders in **osm-bright/shp**
 
 ```
-sudo apt-get install mapnik-utils
+sudo apt-get install -y mapnik-utils
 cd osm-bright/shp/land-polygons-split-3857/
 shapeindex land_polygons.shp
 cd ../simplified-land-polygons-complete-3857/
