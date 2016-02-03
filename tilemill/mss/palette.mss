@@ -1,5 +1,5 @@
 /* ****************************************************************** */
-/* Mazda Style - based on OSM BRIGHT - created by @hoangngoctu        */
+/* OSM BRIGHT for Imposm                                              */
 /* ****************************************************************** */
 
 /* For basic style customization you can simply edit the colors and
@@ -117,34 +117,33 @@ Map { font-directory: url(./fonts); }
    at once or override each individually. */
 @place_halo:        fadeout(#fff,34%);
 
-@country_text:      #444;
+@country_text:      #333;
 @country_halo:      @place_halo;
 
-@state_text:        #555;
+@state_text:        #222;
 @state_halo:        @place_halo;
 
-@city_text:         #444;
+@city_text:         #111;
 @city_halo:         @place_halo;
 
-@town_text:         #666;
+@town_text:         #222;
 @town_halo:         @place_halo;
 
-@poi_text:          #888;
+@poi_text:          #333;
 
-@road_text:         #777;
+@road_text:         #000;
 @road_halo:         #fff;
 
-@other_text:        #888;
+@other_text:        #333;
 @other_halo:        @place_halo;
 
-@locality_text:     #aaa;
+@locality_text:     #444;
 @locality_halo:     @land;
 
 /* Also used for other small places: hamlets, suburbs, localities */
-@village_text:      #888;
+@village_text:      #444;
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */
-
 
 
