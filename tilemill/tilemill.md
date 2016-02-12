@@ -74,4 +74,9 @@ mb-util hanoi.mbtiles ~/mazda/map/hanoi
 
 Done!
 
+Note: If **kidle_inject** causes high CPU load after rendering, you can solve by running:
+```
+sudo rmmod intel_powerclamp
+```
+
 
