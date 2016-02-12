@@ -3,8 +3,7 @@ Ubuntu 14.04
 ```
 sudo add-apt-repository ppa:developmentseed/mapbox
 sudo apt-get update
-sudo apt-get install -y tilemill libmapnik nodejs
-sudo apt-get install -y python-software-properties
+sudo apt-get install -y tilemill libmapnik nodejs python-software-properties
 ```
 
 - Open TileMill
