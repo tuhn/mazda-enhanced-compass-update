@@ -69,7 +69,7 @@ cd mbutil/
 sudo python setup.py install
 
 cd ~/Documents/MapBox/export
-mb-util hanoi.mbtiles ~/mazda/map/hanoi
+mb-util hanoi.mbtiles ~/mazda/tiles/hanoi
 ```
 
 Done!
