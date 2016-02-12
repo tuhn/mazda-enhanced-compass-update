@@ -82,4 +82,4 @@ run-script D:\Setup\Mazda\Map\Render\build.txt
 Mục đích chính của guide này là các bạn tự cập nhật và tuỳ biến style được. Và có thể nhiều bạn tạo ra các style và render đẹp hơn, tốt hơn mình. Còn với các bạn không tự làm được thì có thể download các Tiles do mình đã render rồi copy đè vào *SD:\tiles*, tuy nhiên các Tiles rồi sẽ lại outdate, vài tháng nữa sẽ lại phải render mới. Mình chỉ render lại khu vực trung tâm và lân cận Hà Nội, Hải Phòng, Quảng Ninh, Đà Nẵng, Hội An, HCM, Đồng Nai, Vũng Tàu.
 
 ## Rendered by TileMill (better than Maperitive)
-- Mazda style: https://mega.nz/#!BEgTCLzJ!k2h9KYtV9sU6a8jw0x0RtZsEjRIDWH9kmhlUQ0VSr18 (last updated: Feb 06)
+- Mazda style: https://mega.nz/#!hYxR2RTB!Szfz1LFzvRSJA3Xajud0vT3fP2ho-m0EMFZ-s4to7Y0 (last updated: Feb 13)
